@@ -1,0 +1,11 @@
+Git add
+Git commit -m “”
+git status命令可以让我们时刻掌握仓库当前的状态
+Git diff 
+Git log 
+Git reset —hard HEAD^
+Git log —pertty=oneline
+Git reflog
+git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
+git checkout -- file可以丢弃工作区的修改
+git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区
