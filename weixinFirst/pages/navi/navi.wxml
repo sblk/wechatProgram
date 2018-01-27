@@ -1,0 +1,2 @@
+<view>navi</view>
+<button bindtap="retur">return</button>

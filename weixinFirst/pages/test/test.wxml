@@ -1,0 +1,35 @@
+<!-- <view>test页</view>
+<view>{{name}}</view>
+<view>密码是{{pass}}</view>
+<button bindtap="toiindex">跳转到首页</button> 
+<navigator hover-class="active" url="../navi/navi">跳转到navi</navigator>
+ -->
+
+ <!-- <button bindtap="say" >say hello</button> -->
+ <!-- <view id="{{id}}">内容</view>
+ <button bindtap="show" >显示隐藏</button>
+ <view wx:if="{{bol}}">条件渲染显示</view> -->
+
+ <!-- <block wx:if="{{true}}">
+    <view>one</view>
+    <view>two</view>
+</block> -->
+
+<!--只能作用于文本类型  -->
+<!-- <text hidden="{{true}}">hidden</text> -->
+<!-- <view wx:for="{{arr}}">{{item}}</view> -->
+
+<!-- <template name="object">
+    <view>{{a}}</view>
+    <view>{{b}}</view>
+    <view>{{tempname}}</view>
+</template> -->
+
+<!-- <template is="object" data="{{...obj1,tempname:name}}"></template> -->
+<view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
+    <view style="display:inline-block;width=50px;" wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+       <view wx:if="{{j<=i}}">
+           {{i}}*{{j}}={{i*j}}
+       </view>
+    </view>
+</view>
